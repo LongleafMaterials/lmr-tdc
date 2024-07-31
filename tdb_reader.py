@@ -1,11 +1,178 @@
 # -*- coding: utf-8 -*-
 """
 Read and parse thermodynamic database (.TDB) files
+Goal is to return a TDB object
+
+Consider converting TDB to a structure like JSON
 
 Created on Mon Jul 29 20:46:37 2024
 
 @author: Colin-LMR
 """
+import io
+import requests
+import pandas as pd
+import re
+import json
 
-### Initial work performed locally
-path = 'C:\\Users\\Colin-LMR\\OneDrive - Longleaf Materials Research\\Documents\\Longleaf Materials Research\\Projects\\lmr-tdc\\'
+# Retrieve COST507R TDB file
+url = 'https://raw.githubusercontent.com/colin-lmr/lmr-tdc/main/tdb/cost507R.TDB'
+tdb = requests.get(url).text
+
+## Clean data
+def cleanTDB(tdb):
+    # Split tdb into lines by '\n'
+    tdbLines = tdb.split('\n')
+    
+    # Add space around semicolons then delete - helps capture groups
+    #tdbLines = [r.replace(';',' ; ') for r in tdbLines]
+    #tdbLines = [r.replace(';','') for r in tdbLines]
+    
+    # Remove dollar signs and whitespace from beginning of each row
+    tdbLines = [r.replace('$','').lstrip() for r in tdbLines]
+    
+    # Recombine lines and split by exclamation points
+    tdbLines =  ''.join(tdbLines).split('!')
+    
+    # Remove remaining white space after rejoining
+    tdbLines = [r.lstrip() for r in tdbLines]
+    
+    return tdbLines
+
+### Extract elements, phase names, and parameters
+def getElements(tdbLines):
+    # Extract lines containing element data
+    tdbLines = [line[8:] for line in tdbLines if line[:7] == 'ELEMENT']
+    
+    # Convert cleaned TDB to IO so it can be read by pandas
+    buffer = io.StringIO('\n'.join(tdbLines))
+    
+    # Read lines into dataframe
+    elements = pd.read_fwf(buffer, header=None, colspecs='infer')
+
+    # Rename columns
+    elements.columns = ['element',
+                        'phase',
+                        'atomic_mass',
+                        'H298-H0',
+                        'S298']
+    
+    # Create structured data
+    dataStruct = []
+    for i in elements.index:
+        item = elements.iloc[i]
+        dataStruct.append({'element': item.element,
+                           'phase': item.phase,
+                           'atomic_mass': item.atomic_mass,
+                           'H298-H0': item['H298-H0'],
+                           'S298': item.S298})
+    return dataStruct
+
+### Extract functions
+def getFunctions(tdbLines):
+    # Remove "FUNCT" and "FUNCTION" from beginning of lines (may not be necessary)
+    tdbLines = [x.replace('FUNCT ', 'FUNCTION ')[9:] for x in [line.replace('\n','') for line in tdbLines if line[:5] == 'FUNCT']]
+       
+    # Add space ahead of semicolons to help capture groups
+    tdbLines = [x.replace(';', ' ;') for x in tdbLines]
+    
+    # Replace unnecessary characters to facilitate parsing
+    chars = ['Y', ';']
+    for c in chars:
+        tdbLines = [x.replace(c, '') for x in tdbLines]
+    
+    # Create structured data
+    dataStruct = []
+    
+    for item in tdbLines:
+        # Break into word/character groups
+        text = re.findall('([\S]+)', item)
+        
+        # Delete any items in the list after, and including, "N"
+        text = text[:text.index('N')]
+        
+        # Initialize data element with name of function
+        elem = {'name': text[0],
+                'functions': []}
+        
+        # Extract temperature ranges and functions for remaining entries
+        # Based on format, even index are functions, and adjacent indices are bounding temperatures
+        for i in list(range(2,len(text),2)):
+            elem['functions'].append({'min_temp': text[i-1], 
+                                      'max_temp': text[i+1],
+                                      'function': text[i]})
+        
+        # Add data element to structure
+        dataStruct.append(elem)
+    
+    # Return data
+    return dataStruct
+
+### Extract parameters
+def getParameters(tdbLines):
+    # Remove "PARAMETER" from beginning of lines
+    tdbLines = [x.replace('PARAM ', 'PARAMETER ')[10:] for x in [line.replace('\n','') for line in tdbLines if line[:5] == 'PARAM']]
+  
+    # Replace unnecessary characters to facilitate parsing
+    chars = ['Y']
+    for c in chars:
+        tdbLines = [x.replace(c, '') for x in tdbLines]
+    
+    # Create structured data
+    dataStruct = []
+        
+    for item in tdbLines:
+        # Replace semicolons after the closing parentheses to split groups
+        item = item[:item.find(')')] + item[item.find(')'):].replace(';',' ')
+        
+        # Break into word/character groups
+        text = re.findall('([\S]+)', item)
+        
+        # Delete any items in the list after, and including, "N" (may not be present)
+        text = text[:text.index('N')]
+        
+        # Initialize data element with name of function
+        elem = {'name': text[0],
+                'parameters': []}
+        
+        # Extract temperature ranges and functions for remaining entries
+        # Based on format, even index are functions, and adjacent indices are bounding temperatures
+        for i in list(range(2,len(text),2)):
+            elem['parameters'].append({'min_temp': text[i-1], 
+                                       'max_temp': text[i+1],
+                                       'function': text[i]})
+        
+        # Add data element to structure
+        dataStruct.append(elem)
+
+    return dataStruct
+
+### Extract phase constituents
+        
+tdbLines = cleanTDB(tdb)
+elems = getElements(tdbLines)
+fns = getFunctions(tdbLines)
+params = getParameters(tdbLines)
+
+
+
+
+#%% Function time testing
+import timeit
+#e = re.compile('([\S]+)')
+def test():
+    #[x.replace('FUNCT ', 'FUNCTION ')[9:] for x in [line for line in tdbLines if line[:5] == 'FUNCT']]
+  
+    for item in tdbLines:
+        name = re.findall('([\S]+)', item)
+        #name = [it for it in item.split(' ') if len(it)>1]
+        print(name)
+
+timeit.timeit('test()', setup='from __main__ import test', number=10000)
+
+
+#%%
+# Write JSON
+path = 'C:\\Users\\Fletcher\\OneDrive - Longleaf Materials Research\\Documents\\Longleaf Materials Research\\Projects\\lmr-tdc\\tdb\\'
+with open(path + 'COST507R.json', 'w', encoding='utf-8') as f:
+    json.dump(<name>, f, ensure_ascii=False, indent=4)
