@@ -114,8 +114,8 @@ def getFunctions(tdbLines):
         # Extract temperature ranges and functions for remaining entries
         # Based on format, even index are functions, and adjacent indices are bounding temperatures
         for i in list(range(2,len(text),2)):
-            elem['functions'].append({'min_temp': text[i-1], 
-                                      'max_temp': text[i+1],
+            elem['functions'].append({'min_temp': float(text[i-1]), 
+                                      'max_temp': float(text[i+1]),
                                       'function': text[i]})
         
         # Add data element to structure
@@ -181,6 +181,8 @@ def getParameters(tdbLines):
         for t in text:
             if 'REF' in t:
                 ref = t
+            else:
+                ref = None
         
         # Delete any items in the list after, and including, "N" (may not be present)
         text = text[:text.index('N')]
@@ -195,9 +197,11 @@ def getParameters(tdbLines):
         functions = {'phase': phaseName,
                      'mixing': mix,
                      'species': species,
+                     'L': L,
                      'lower_temp': lowTemp,
                      'upper_temp': highTemp,
-                     'function': function}
+                     'function': function,
+                     'ref': ref}
         
         # Add data element to structure
         dataStruct.append(functions)
