@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Read and parse thermodynamic database (.TDB) files
-Goal is to return a TDB object
+*** INCOMPLETE ***
 
-Consider converting TDB to a structure like JSON
+Read and parse thermodynamic database (.TDB) files
+NOTE: TDB formats are inconsistent, so this does not need to be able to handle
+      everything. Method can read COST507R, a common TDB.
 
 Created on Mon Jul 29 20:46:37 2024
 
@@ -86,7 +87,7 @@ def getFunctions(tdbLines):
     
     for item in tdbLines:
         # Break into word/character groups
-        text = re.findall('([\S]+)', item)
+        text = re.findall(r'([\S]+)', item)
         
         # Delete any items in the list after, and including, "N"
         text = text[:text.index('N')]
@@ -126,7 +127,7 @@ def getParameters(tdbLines):
         item = item[:item.find(')')] + item[item.find(')'):].replace(';',' ')
         
         # Break into word/character groups
-        text = re.findall('([\S]+)', item)
+        text = re.findall(r'([\S]+)', item)
         
         # Delete any items in the list after, and including, "N" (may not be present)
         text = text[:text.index('N')]
@@ -147,14 +148,50 @@ def getParameters(tdbLines):
 
     return dataStruct
 
-### Extract phase constituents
-        
+### Extract phases and constituents
+# Data structure for a single phase entry:
+#   {
+#   phase: <phasename>
+#   sublattices: <number of sublattices>
+#   stoichiomery: [<stoichiometry for each sublattice>]
+#   constituent: <constituent name>
+#   constituent: <constituent name>
+#   ...
+#   }
+#def getPhases(tdbLines):
+tdbLines = cleanTDB(tdb) # TEMPORARY UNTIL FUNCTION IS BUILT
+# Reduce list to rows which contain phases and constituents
+tdbLines = [r for r in tdbLines if any([r[:5] == 'PHASE', r[:5] == 'CONST'])]
+
+# Initialize data structure
+dataStruct = []
+
+# Lines defining phase and constituents appear in pairs, with CONSTITUENT line
+# following a PHASE line. Isolate each type and then process in pairs.
+phases = [tdbLines[i][5:].strip() for i in range(0,len(tdbLines),2)]
+constituents = [tdbLines[i][11:].strip() for i in range(1,len(tdbLines),2)] 
+for p, c in zip(phases, constituents):
+    # Split phase information into list
+    phaseList = [i for i in p.split(' ') if len(i)>0]
+    
+    # Extract information from phase data
+    phaseName = phaseList[0]
+    numSubl = phaseList[phaseList.index('%')+1]
+    stoich = phaseList[phaseList.index('%')+2:]
+    
+    # Add data to data structure
+    data = {'phase': phaseName,
+            'sublattices': numSubl,
+            'stoichiometry': stoich}
+    
+
+
+
+#%%    
 tdbLines = cleanTDB(tdb)
 elems = getElements(tdbLines)
 fns = getFunctions(tdbLines)
 params = getParameters(tdbLines)
-
-
 
 
 #%% Function time testing
@@ -173,6 +210,5 @@ timeit.timeit('test()', setup='from __main__ import test', number=10000)
 
 #%%
 # Write JSON
-path = 'C:\\Users\\Fletcher\\OneDrive - Longleaf Materials Research\\Documents\\Longleaf Materials Research\\Projects\\lmr-tdc\\tdb\\'
 with open(path + 'COST507R.json', 'w', encoding='utf-8') as f:
     json.dump(<name>, f, ensure_ascii=False, indent=4)
