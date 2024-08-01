@@ -2,6 +2,8 @@
 """
 *** Functioning work-in-progress ***
 
+*** Misses occasional functions/parameters - need to fix
+
 Read thermodynamic database (.TDB) file and convert to JSON
 NOTE: This was intended to parse COST507R. TDB formats are inconsistent, 
       so other databases may not parse properly or at all. 
@@ -114,9 +116,16 @@ def getFunctions(tdbLines):
         # Extract temperature ranges and functions for remaining entries
         # Based on format, even index are functions, and adjacent indices are bounding temperatures
         for i in list(range(2,len(text),2)):
+            # Retrieve function and replace "LN(T)" with Python-friendly "math.log(T)",
+            # and remove "#" for cleaner interpretation
+            fn = text[i]
+            fn = fn.replace('LN(T)', 'math.log(T)')
+            fn = fn.replace('#', '')
+            
+            # Build dictionary of values
             elem['functions'].append({'min_temp': float(text[i-1]), 
                                       'max_temp': float(text[i+1]),
-                                      'function': text[i]})
+                                      'function': fn})
         
         # Add data element to structure
         dataStruct.append(elem)
@@ -360,7 +369,8 @@ tdb = requests.get(url).text
 # Need to add data citations if using this as a file format ***
 data = buildJSON(tdb)
 
-path = 'C:\\Users\\Fletcher\\OneDrive - Longleaf Materials Research\\Documents\\Longleaf Materials Research\\Projects\\lmr-tdc\\tdb\\'
+#path = 'C:\\Users\\Fletcher\\OneDrive - Longleaf Materials Research\\Documents\\Longleaf Materials Research\\Projects\\lmr-tdc\\tdb\\'
+path = 'C:\\Users\\Colin-LMR\\OneDrive - Longleaf Materials Research\\Documents\\Longleaf Materials Research\\Projects\\lmr-tdc\\tdb\\'
 with open(path + 'COST507R.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
 
