@@ -13059,5 +13059,24 @@
             ]
         }
     ],
-    "phases": null
+    "phases": [
+        {
+            "phase": "LIQUID:L",
+            "sublattices": "1",
+            "stoichiometry": [
+                "1.0"
+            ],
+            "constituents": [
+                {
+                    "constituent": "LIQUID"
+                },
+                {
+                    "constituent": "L"
+                },
+                {
+                    "constituent": "AL,B,C,CE,CR,CU,FE,LI,MG,MN,N,ND,NI,SI,SN,TI,V,Y,ZN,ZR"
+                }
+            ]
+        }
+    ]
 }

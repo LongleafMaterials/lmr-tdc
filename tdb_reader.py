@@ -229,6 +229,8 @@ def getPhases(tdbLines):
                 'constituents': const}
         
         dataStruct.append(data)
+        
+        return dataStruct
     
 #%%   
 # Retrieve COST507R TDB file
