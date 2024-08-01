@@ -13077,6 +13077,3743 @@
                     "constituent": "AL,B,C,CE,CR,CU,FE,LI,MG,MN,N,ND,NI,SI,SN,TI,V,Y,ZN,ZR"
                 }
             ]
+        },
+        {
+            "phase": "AL10V",
+            "sublattices": "2",
+            "stoichiometry": [
+                "10",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL10V"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "V"
+                }
+            ]
+        },
+        {
+            "phase": "AL11CR2",
+            "sublattices": "3",
+            "stoichiometry": [
+                "10",
+                "1",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL11CR2"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CR"
+                }
+            ]
+        },
+        {
+            "phase": "AL11MN4",
+            "sublattices": "2",
+            "stoichiometry": [
+                "11",
+                "4"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL11MN4"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "FE,MN"
+                }
+            ]
+        },
+        {
+            "phase": "AL11TI5",
+            "sublattices": "2",
+            "stoichiometry": [
+                "17",
+                "8"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL11TI5"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "AL11_CEND3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "11",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL11_CEND3"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CE,ND"
+                }
+            ]
+        },
+        {
+            "phase": "AL12MG17",
+            "sublattices": "3",
+            "stoichiometry": [
+                "24",
+                "10",
+                "24"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL12MG17"
+                },
+                {
+                    "constituent": "LI,MG"
+                },
+                {
+                    "constituent": "AL,LI,MG"
+                },
+                {
+                    "constituent": "AL,MG"
+                }
+            ]
+        },
+        {
+            "phase": "AL12MN",
+            "sublattices": "2",
+            "stoichiometry": [
+                "12",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL12MN"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "FE,MN"
+                }
+            ]
+        },
+        {
+            "phase": "AL13CR2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "13",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL13CR2"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CR"
+                }
+            ]
+        },
+        {
+            "phase": "AL13FE4",
+            "sublattices": "3",
+            "stoichiometry": [
+                ".6275",
+                ".235",
+                ".1375"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL13FE4"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "FE,MN"
+                },
+                {
+                    "constituent": "AL,SI,VA"
+                }
+            ]
+        },
+        {
+            "phase": "AL23V4",
+            "sublattices": "2",
+            "stoichiometry": [
+                "23",
+                "4"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL23V4"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "V"
+                }
+            ]
+        },
+        {
+            "phase": "AL2FE",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL2FE"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "FE,MN"
+                }
+            ]
+        },
+        {
+            "phase": "AL2LI3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL2LI3"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "LI"
+                }
+            ]
+        },
+        {
+            "phase": "AL2TI",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL2TI"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "AL2Y1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL2Y1"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "Y"
+                }
+            ]
+        },
+        {
+            "phase": "AL2Y3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL2Y3"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "Y"
+                }
+            ]
+        },
+        {
+            "phase": "AL2ZR1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL2ZR1"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "LI,ZR"
+                }
+            ]
+        },
+        {
+            "phase": "AL2ZR3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL2ZR3"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "AL3M_DO22",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL3M_DO22"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "TI,V"
+                }
+            ]
+        },
+        {
+            "phase": "AL3Y1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL3Y1"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "Y"
+                }
+            ]
+        },
+        {
+            "phase": "AL3Y5",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL3Y5"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "Y"
+                }
+            ]
+        },
+        {
+            "phase": "AL3ZR1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL3ZR1"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "LI,ZR"
+                }
+            ]
+        },
+        {
+            "phase": "AL3ZR2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL3ZR2"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "AL3ZR5",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL3ZR5"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "AL3_CEND",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL3_CEND"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CE,ND"
+                }
+            ]
+        },
+        {
+            "phase": "AL4C3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "4",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL4C3"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "C"
+                }
+            ]
+        },
+        {
+            "phase": "AL4CR",
+            "sublattices": "2",
+            "stoichiometry": [
+                "4",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL4CR"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CR"
+                }
+            ]
+        },
+        {
+            "phase": "AL4LI9",
+            "sublattices": "2",
+            "stoichiometry": [
+                "4",
+                "9"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL4LI9"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "LI"
+                }
+            ]
+        },
+        {
+            "phase": "AL4MN",
+            "sublattices": "2",
+            "stoichiometry": [
+                "4",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL4MN"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "MN,FE"
+                }
+            ]
+        },
+        {
+            "phase": "AL4ZR5",
+            "sublattices": "2",
+            "stoichiometry": [
+                "4",
+                "5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL4ZR5"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "AL5FE2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "5",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL5FE2"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "FE,MN"
+                }
+            ]
+        },
+        {
+            "phase": "AL5FE4",
+            "sublattices": "1",
+            "stoichiometry": [
+                "1.0"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL5FE4"
+                },
+                {
+                    "constituent": "AL,FE,MN"
+                }
+            ]
+        },
+        {
+            "phase": "AL6MN",
+            "sublattices": "2",
+            "stoichiometry": [
+                "6",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL6MN"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "FE,MN"
+                }
+            ]
+        },
+        {
+            "phase": "AL7V",
+            "sublattices": "2",
+            "stoichiometry": [
+                "7",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL7V"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "V"
+                }
+            ]
+        },
+        {
+            "phase": "AL8CR5_H",
+            "sublattices": "2",
+            "stoichiometry": [
+                "8",
+                "5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL8CR5_H"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CR"
+                }
+            ]
+        },
+        {
+            "phase": "AL8CR5_L",
+            "sublattices": "2",
+            "stoichiometry": [
+                "8",
+                "5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL8CR5_L"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CR"
+                }
+            ]
+        },
+        {
+            "phase": "AL8MN5_D810",
+            "sublattices": "3",
+            "stoichiometry": [
+                "12",
+                "4",
+                "10"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL8MN5_D810"
+                },
+                {
+                    "constituent": "AL,SI"
+                },
+                {
+                    "constituent": "MN"
+                },
+                {
+                    "constituent": "AL,FE,MN"
+                }
+            ]
+        },
+        {
+            "phase": "AL8V5",
+            "sublattices": "2",
+            "stoichiometry": [
+                "8",
+                "5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL8V5"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "V"
+                }
+            ]
+        },
+        {
+            "phase": "AL9CR4_H",
+            "sublattices": "2",
+            "stoichiometry": [
+                "9",
+                "4"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL9CR4_H"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CR"
+                }
+            ]
+        },
+        {
+            "phase": "AL9CR4_L",
+            "sublattices": "2",
+            "stoichiometry": [
+                "9",
+                "4"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL9CR4_L"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CR"
+                }
+            ]
+        },
+        {
+            "phase": "ALB12_ALPHA",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "12"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALB12_ALPHA"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "B"
+                }
+            ]
+        },
+        {
+            "phase": "ALB12_BETA",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "12"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALB12_BETA"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "B"
+                }
+            ]
+        },
+        {
+            "phase": "ALB2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALB2"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "B"
+                }
+            ]
+        },
+        {
+            "phase": "ALCR2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALCR2"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CR"
+                }
+            ]
+        },
+        {
+            "phase": "ALCULI_R",
+            "sublattices": "3",
+            "stoichiometry": [
+                ".55",
+                ".117",
+                ".333"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALCULI_R"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "LI"
+                }
+            ]
+        },
+        {
+            "phase": "ALCULI_T1",
+            "sublattices": "3",
+            "stoichiometry": [
+                ".5",
+                ".25",
+                ".25"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALCULI_T1"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "LI"
+                }
+            ]
+        },
+        {
+            "phase": "ALCULI_T2",
+            "sublattices": "3",
+            "stoichiometry": [
+                ".57",
+                ".11",
+                ".32"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALCULI_T2"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "LI"
+                }
+            ]
+        },
+        {
+            "phase": "ALCULI_TB",
+            "sublattices": "3",
+            "stoichiometry": [
+                ".6",
+                ".32",
+                ".08"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALCULI_TB"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "LI"
+                }
+            ]
+        },
+        {
+            "phase": "ALCU_DELTA",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALCU_DELTA"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CU"
+                }
+            ]
+        },
+        {
+            "phase": "ALCU_EPSILON",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALCU_EPSILON"
+                },
+                {
+                    "constituent": "AL,CU"
+                },
+                {
+                    "constituent": "CU"
+                }
+            ]
+        },
+        {
+            "phase": "ALCU_ETA",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALCU_ETA"
+                },
+                {
+                    "constituent": "AL,CU"
+                },
+                {
+                    "constituent": "CU"
+                }
+            ]
+        },
+        {
+            "phase": "ALCU_PRIME",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALCU_PRIME"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CU"
+                }
+            ]
+        },
+        {
+            "phase": "ALCU_THETA",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALCU_THETA"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "AL,CU"
+                }
+            ]
+        },
+        {
+            "phase": "ALCU_ZETA",
+            "sublattices": "2",
+            "stoichiometry": [
+                "9",
+                "11"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALCU_ZETA"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CU"
+                }
+            ]
+        },
+        {
+            "phase": "ALFESI_ALPHA",
+            "sublattices": "4",
+            "stoichiometry": [
+                ".6612",
+                ".19",
+                ".0496",
+                ".0992"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALFESI_ALPHA"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "FE"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "AL,SI"
+                }
+            ]
+        },
+        {
+            "phase": "ALFESI_BETA",
+            "sublattices": "3",
+            "stoichiometry": [
+                "14",
+                "3",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALFESI_BETA"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "FE"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "ALFESI_DELTA",
+            "sublattices": "3",
+            "stoichiometry": [
+                ".55",
+                ".15",
+                ".3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALFESI_DELTA"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "FE"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "ALFESI_GAMMA",
+            "sublattices": "3",
+            "stoichiometry": [
+                "3",
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALFESI_GAMMA"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "FE"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "ALFESI_TAU1",
+            "sublattices": "3",
+            "stoichiometry": [
+                "2",
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALFESI_TAU1"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "FE"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "ALFESI_TAU3",
+            "sublattices": "3",
+            "stoichiometry": [
+                "2",
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALFESI_TAU3"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "FE"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "AL1LI1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL1LI1"
+                },
+                {
+                    "constituent": "AL,LI,MG"
+                },
+                {
+                    "constituent": "LI,MG,VA"
+                }
+            ]
+        },
+        {
+            "phase": "ALLIMG_TAU",
+            "sublattices": "3",
+            "stoichiometry": [
+                ".53",
+                ".33",
+                ".14"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALLIMG_TAU"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "LI"
+                },
+                {
+                    "constituent": "MG"
+                }
+            ]
+        },
+        {
+            "phase": "ALMGMN_T",
+            "sublattices": "3",
+            "stoichiometry": [
+                "18",
+                "3",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALMGMN_T"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "MG"
+                },
+                {
+                    "constituent": "MN"
+                }
+            ]
+        },
+        {
+            "phase": "ALMG_BETA",
+            "sublattices": "2",
+            "stoichiometry": [
+                ".615",
+                ".385"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALMG_BETA"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "LI,MG"
+                }
+            ]
+        },
+        {
+            "phase": "ALMG_DZETA",
+            "sublattices": "2",
+            "stoichiometry": [
+                "21",
+                "19"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALMG_DZETA"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "MG"
+                }
+            ]
+        },
+        {
+            "phase": "ALMG_UPSILON",
+            "sublattices": "2",
+            "stoichiometry": [
+                "14",
+                "11"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALMG_UPSILON"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "MG"
+                }
+            ]
+        },
+        {
+            "phase": "ALMNSI_ALPHA",
+            "sublattices": "4",
+            "stoichiometry": [
+                "16",
+                "4",
+                "1",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALMNSI_ALPHA"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "MN"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "AL,SI"
+                }
+            ]
+        },
+        {
+            "phase": "ALMNSI_DELTA",
+            "sublattices": "3",
+            "stoichiometry": [
+                "2",
+                "1",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALMNSI_DELTA"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "MN"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "ALMNSI_BETA",
+            "sublattices": "3",
+            "stoichiometry": [
+                "7.5",
+                "2.5",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALMNSI_BETA"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "AL,SI"
+                },
+                {
+                    "constituent": "MN"
+                }
+            ]
+        },
+        {
+            "phase": "ALMNSI_BETA",
+            "sublattices": "4",
+            "stoichiometry": [
+                "15.0",
+                "1.0",
+                "4.0",
+                "6.0"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALMNSI_BETA"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "AL,SI"
+                },
+                {
+                    "constituent": "MN"
+                }
+            ]
+        },
+        {
+            "phase": "ALN",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALN"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "N"
+                }
+            ]
+        },
+        {
+            "phase": "AL1ND2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL1ND2"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "ND"
+                }
+            ]
+        },
+        {
+            "phase": "ALPHA_TIMN",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALPHA_TIMN"
+                },
+                {
+                    "constituent": "MN"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "AL1TI1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL1TI1"
+                },
+                {
+                    "constituent": "AL%,TI,V"
+                },
+                {
+                    "constituent": "AL,TI%,V"
+                }
+            ]
+        },
+        {
+            "phase": "ALTI3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALTI3"
+                },
+                {
+                    "constituent": "AL,TI%,V"
+                },
+                {
+                    "constituent": "AL%,TI,V"
+                }
+            ]
+        },
+        {
+            "phase": "AL1Y1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL1Y1"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "Y"
+                }
+            ]
+        },
+        {
+            "phase": "ALY2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALY2"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "Y"
+                }
+            ]
+        },
+        {
+            "phase": "AL1ZR1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL1ZR1"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "ALZR2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALZR2"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "ALZR3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALZR3"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "AL_CEND1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "AL_CEND1"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CE,ND"
+                }
+            ]
+        },
+        {
+            "phase": "ALCEND3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "ALCEND3"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "CE,ND"
+                }
+            ]
+        },
+        {
+            "phase": "B2TI",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "B2TI"
+                },
+                {
+                    "constituent": "B"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "B3SI",
+            "sublattices": "3",
+            "stoichiometry": [
+                "6",
+                "2",
+                "6"
+            ],
+            "constituents": [
+                {
+                    "constituent": "B3SI"
+                },
+                {
+                    "constituent": "B"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "B,SI"
+                }
+            ]
+        },
+        {
+            "phase": "B4C",
+            "sublattices": "2",
+            "stoichiometry": [
+                "12",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "B4C"
+                },
+                {
+                    "constituent": "B"
+                },
+                {
+                    "constituent": "B4,C2B,C2SI,C3"
+                }
+            ]
+        },
+        {
+            "phase": "B4TI3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "4",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "B4TI3"
+                },
+                {
+                    "constituent": "B"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "B6SI",
+            "sublattices": "3",
+            "stoichiometry": [
+                "210",
+                "23",
+                "48"
+            ],
+            "constituents": [
+                {
+                    "constituent": "B6SI"
+                },
+                {
+                    "constituent": "B"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "B,SI"
+                }
+            ]
+        },
+        {
+            "phase": "BCC_A2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "BCC_A2"
+                },
+                {
+                    "constituent": "AL,CE,CR%,CU,FE%,LI,MG,MN,ND,SI,SN,TI%,V%,Y%,ZN,ZR%"
+                },
+                {
+                    "constituent": "B,C,N,VA%"
+                }
+            ]
+        },
+        {
+            "phase": "BCC_B2",
+            "sublattices": "2",
+            "stoichiometry": [
+                ".5",
+                ".5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "BCC_B2"
+                },
+                {
+                    "constituent": "AL,CU,FE,SI,ZN"
+                },
+                {
+                    "constituent": "AL,CU,FE,SI,ZN"
+                }
+            ]
+        },
+        {
+            "phase": "BCT_A5",
+            "sublattices": "1",
+            "stoichiometry": [
+                "1.0"
+            ],
+            "constituents": [
+                {
+                    "constituent": "BCT_A5"
+                },
+                {
+                    "constituent": "AL,SN,ZN"
+                }
+            ]
+        },
+        {
+            "phase": "BETA_RHOMBO_B",
+            "sublattices": "2",
+            "stoichiometry": [
+                "93",
+                "12"
+            ],
+            "constituents": [
+                {
+                    "constituent": "BETA_RHOMBO_B"
+                },
+                {
+                    "constituent": "B"
+                },
+                {
+                    "constituent": "B,SI"
+                }
+            ]
+        },
+        {
+            "phase": "BETA_TIMN",
+            "sublattices": "2",
+            "stoichiometry": [
+                ".515",
+                ".485"
+            ],
+            "constituents": [
+                {
+                    "constituent": "BETA_TIMN"
+                },
+                {
+                    "constituent": "MN"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "BN_HP4",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "BN_HP4"
+                },
+                {
+                    "constituent": "B"
+                },
+                {
+                    "constituent": "N"
+                }
+            ]
+        },
+        {
+            "phase": "BTI",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "BTI"
+                },
+                {
+                    "constituent": "B"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "B_NSI",
+            "sublattices": "3",
+            "stoichiometry": [
+                "61",
+                "1",
+                "8"
+            ],
+            "constituents": [
+                {
+                    "constituent": "B_NSI"
+                },
+                {
+                    "constituent": "B"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "B,SI"
+                }
+            ]
+        },
+        {
+            "phase": "CBCC_A12",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CBCC_A12"
+                },
+                {
+                    "constituent": "AL,CR,FE,MG,MN,SI,TI"
+                },
+                {
+                    "constituent": "VA"
+                }
+            ]
+        },
+        {
+            "phase": "CE2MG17",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "17"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CE2MG17"
+                },
+                {
+                    "constituent": "CE"
+                },
+                {
+                    "constituent": "MG"
+                }
+            ]
+        },
+        {
+            "phase": "CE5MG41",
+            "sublattices": "2",
+            "stoichiometry": [
+                "5",
+                "41"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CE5MG41"
+                },
+                {
+                    "constituent": "CE"
+                },
+                {
+                    "constituent": "MG"
+                }
+            ]
+        },
+        {
+            "phase": "CE1MG1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CE1MG1"
+                },
+                {
+                    "constituent": "CE"
+                },
+                {
+                    "constituent": "MG"
+                }
+            ]
+        },
+        {
+            "phase": "CEMG12",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "12"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CEMG12"
+                },
+                {
+                    "constituent": "CE"
+                },
+                {
+                    "constituent": "MG"
+                }
+            ]
+        },
+        {
+            "phase": "CEMG2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CEMG2"
+                },
+                {
+                    "constituent": "CE"
+                },
+                {
+                    "constituent": "MG"
+                }
+            ]
+        },
+        {
+            "phase": "CEMG3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CEMG3"
+                },
+                {
+                    "constituent": "CE"
+                },
+                {
+                    "constituent": "MG"
+                }
+            ]
+        },
+        {
+            "phase": "CR2TI",
+            "sublattices": "2",
+            "stoichiometry": [
+                ".645",
+                ".355"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CR2TI"
+                },
+                {
+                    "constituent": "CR"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "CR3MN5",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CR3MN5"
+                },
+                {
+                    "constituent": "CR"
+                },
+                {
+                    "constituent": "MN"
+                }
+            ]
+        },
+        {
+            "phase": "CR3SI_A15",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CR3SI_A15"
+                },
+                {
+                    "constituent": "CR,SI"
+                },
+                {
+                    "constituent": "CR,SI"
+                }
+            ]
+        },
+        {
+            "phase": "CR5SI3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "5",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CR5SI3"
+                },
+                {
+                    "constituent": "CR"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "CR1SI1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CR1SI1"
+                },
+                {
+                    "constituent": "CR"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "CRSI2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CRSI2"
+                },
+                {
+                    "constituent": "CR,SI"
+                },
+                {
+                    "constituent": "CR,SI"
+                }
+            ]
+        },
+        {
+            "phase": "CRZN13",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "13"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CRZN13"
+                },
+                {
+                    "constituent": "CR"
+                },
+                {
+                    "constituent": "ZN"
+                }
+            ]
+        },
+        {
+            "phase": "CRZN17",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "17"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CRZN17"
+                },
+                {
+                    "constituent": "CR"
+                },
+                {
+                    "constituent": "ZN"
+                }
+            ]
+        },
+        {
+            "phase": "CSI",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CSI"
+                },
+                {
+                    "constituent": "C"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "CU10ZR7",
+            "sublattices": "2",
+            "stoichiometry": [
+                "10",
+                "7"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CU10ZR7"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "CU19SI6_ETA",
+            "sublattices": "2",
+            "stoichiometry": [
+                "19",
+                "6"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CU19SI6_ETA"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "CU33SI7_DELTA",
+            "sublattices": "2",
+            "stoichiometry": [
+                "33",
+                "7"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CU33SI7_DELTA"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "CU4SI_EPSILON",
+            "sublattices": "2",
+            "stoichiometry": [
+                "4",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CU4SI_EPSILON"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "CU51ZR14",
+            "sublattices": "2",
+            "stoichiometry": [
+                "51",
+                "14"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CU51ZR14"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "CU56SI11_GAMMA",
+            "sublattices": "2",
+            "stoichiometry": [
+                "56",
+                "11"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CU56SI11_GAMMA"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "CU5ZR",
+            "sublattices": "2",
+            "stoichiometry": [
+                "5",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CU5ZR"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "CU85SI15_BETA",
+            "sublattices": "2",
+            "stoichiometry": [
+                ".85",
+                ".15"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CU85SI15_BETA"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "CU87SI13_KAPPA",
+            "sublattices": "2",
+            "stoichiometry": [
+                ".87",
+                ".13"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CU87SI13_KAPPA"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "CU8ZR3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "8",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CU8ZR3"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "CUB_A13",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CUB_A13"
+                },
+                {
+                    "constituent": "AL,CR,FE,MN,SI,TI"
+                },
+                {
+                    "constituent": "VA"
+                }
+            ]
+        },
+        {
+            "phase": "CUMG2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CUMG2"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "MG"
+                }
+            ]
+        },
+        {
+            "phase": "CUZN_EPS",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CUZN_EPS"
+                },
+                {
+                    "constituent": "CU,ZN"
+                },
+                {
+                    "constituent": "VA"
+                }
+            ]
+        },
+        {
+            "phase": "CUZN_GAMMA",
+            "sublattices": "4",
+            "stoichiometry": [
+                ".15385",
+                ".15385",
+                ".23076",
+                ".46154"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CUZN_GAMMA"
+                },
+                {
+                    "constituent": "CU,ZN"
+                },
+                {
+                    "constituent": "CU,ZN"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "ZN"
+                }
+            ]
+        },
+        {
+            "phase": "CU1ZR1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CU1ZR1"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "CU1ZR2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "CU1ZR2"
+                },
+                {
+                    "constituent": "CU"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "DHCP",
+            "sublattices": "1",
+            "stoichiometry": [
+                "1.0"
+            ],
+            "constituents": [
+                {
+                    "constituent": "DHCP"
+                },
+                {
+                    "constituent": "CE,ND"
+                }
+            ]
+        },
+        {
+            "phase": "DIAMOND_A4",
+            "sublattices": "1",
+            "stoichiometry": [
+                "1.0"
+            ],
+            "constituents": [
+                {
+                    "constituent": "DIAMOND_A4"
+                },
+                {
+                    "constituent": "AL,B,C,SI%,SN,TI,ZN"
+                }
+            ]
+        },
+        {
+            "phase": "FCC_A1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "FCC_A1"
+                },
+                {
+                    "constituent": "AL%,B,CE,CR,CU%,FE%,LI,MG,MN,ND,NI,SI,SN,TI,V,Y,ZN,ZR"
+                },
+                {
+                    "constituent": "C,N,VA%"
+                }
+            ]
+        },
+        {
+            "phase": "FE2SI",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "FE2SI"
+                },
+                {
+                    "constituent": "FE"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "FE5SI3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "5",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "FE5SI3"
+                },
+                {
+                    "constituent": "FE"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "FE1SI1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "FE1SI1"
+                },
+                {
+                    "constituent": "FE"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "FESI2_H",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "7"
+            ],
+            "constituents": [
+                {
+                    "constituent": "FESI2_H"
+                },
+                {
+                    "constituent": "FE"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "FESI2_L",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "FESI2_L"
+                },
+                {
+                    "constituent": "FE"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "GAMMA_D83",
+            "sublattices": "3",
+            "stoichiometry": [
+                "4",
+                "1",
+                "8"
+            ],
+            "constituents": [
+                {
+                    "constituent": "GAMMA_D83"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "AL,CU"
+                },
+                {
+                    "constituent": "CU"
+                }
+            ]
+        },
+        {
+            "phase": "GAMMA_H",
+            "sublattices": "3",
+            "stoichiometry": [
+                "4",
+                "1",
+                "8"
+            ],
+            "constituents": [
+                {
+                    "constituent": "GAMMA_H"
+                },
+                {
+                    "constituent": "AL"
+                },
+                {
+                    "constituent": "AL,CU"
+                },
+                {
+                    "constituent": "CU"
+                }
+            ]
+        },
+        {
+            "phase": "GRAPHITE",
+            "sublattices": "1",
+            "stoichiometry": [
+                "1.0"
+            ],
+            "constituents": [
+                {
+                    "constituent": "GRAPHITE"
+                },
+                {
+                    "constituent": "B,C"
+                }
+            ]
+        },
+        {
+            "phase": "HCP_A3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                ".5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "HCP_A3"
+                },
+                {
+                    "constituent": "AL,CE,CR,CU,FE,LI,MG%,MN,NI,SI,SN,TI%,V,Y,ZN%,ZR%"
+                },
+                {
+                    "constituent": "B,C,N,VA%"
+                }
+            ]
+        },
+        {
+            "phase": "HIGH_SIGMA",
+            "sublattices": "3",
+            "stoichiometry": [
+                "8",
+                "4",
+                "18"
+            ],
+            "constituents": [
+                {
+                    "constituent": "HIGH_SIGMA"
+                },
+                {
+                    "constituent": "MN"
+                },
+                {
+                    "constituent": "CR"
+                },
+                {
+                    "constituent": "CR,MN"
+                }
+            ]
+        },
+        {
+            "phase": "LAVES_C14",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "LAVES_C14"
+                },
+                {
+                    "constituent": "CR%,MN,TI,ZR"
+                },
+                {
+                    "constituent": "CR,MN,TI,ZR%"
+                }
+            ]
+        },
+        {
+            "phase": "LAVES_C15",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "LAVES_C15"
+                },
+                {
+                    "constituent": "AL,CR%,CU%,MG,TI,ZR"
+                },
+                {
+                    "constituent": "CE,CR,CU,MG%,ND,TI,ZR"
+                }
+            ]
+        },
+        {
+            "phase": "LAVES_C36",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "LAVES_C36"
+                },
+                {
+                    "constituent": "CR%,NI,ZR"
+                },
+                {
+                    "constituent": "CR,MG,ZR%"
+                }
+            ]
+        },
+        {
+            "phase": "MG24Y5",
+            "sublattices": "2",
+            "stoichiometry": [
+                "24",
+                "5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MG24Y5"
+                },
+                {
+                    "constituent": "MG"
+                },
+                {
+                    "constituent": "MG,Y"
+                }
+            ]
+        },
+        {
+            "phase": "MG2NI",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MG2NI"
+                },
+                {
+                    "constituent": "MG"
+                },
+                {
+                    "constituent": "NI"
+                }
+            ]
+        },
+        {
+            "phase": "MG2SI",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MG2SI"
+                },
+                {
+                    "constituent": "MG"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "MG2SN",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MG2SN"
+                },
+                {
+                    "constituent": "MG"
+                },
+                {
+                    "constituent": "SN"
+                }
+            ]
+        },
+        {
+            "phase": "MG2Y",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MG2Y"
+                },
+                {
+                    "constituent": "MG"
+                },
+                {
+                    "constituent": "Y"
+                }
+            ]
+        },
+        {
+            "phase": "MG2ZN11",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "11"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MG2ZN11"
+                },
+                {
+                    "constituent": "MG"
+                },
+                {
+                    "constituent": "ZN"
+                }
+            ]
+        },
+        {
+            "phase": "MG2ZN3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MG2ZN3"
+                },
+                {
+                    "constituent": "MG"
+                },
+                {
+                    "constituent": "ZN"
+                }
+            ]
+        },
+        {
+            "phase": "MG7ZN3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "51",
+                "20"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MG7ZN3"
+                },
+                {
+                    "constituent": "MG"
+                },
+                {
+                    "constituent": "ZN"
+                }
+            ]
+        },
+        {
+            "phase": "MGY_GAMMA",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MGY_GAMMA"
+                },
+                {
+                    "constituent": "MG"
+                },
+                {
+                    "constituent": "MG,Y"
+                }
+            ]
+        },
+        {
+            "phase": "MG1ZN1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "12",
+                "13"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MG1ZN1"
+                },
+                {
+                    "constituent": "MG"
+                },
+                {
+                    "constituent": "ZN"
+                }
+            ]
+        },
+        {
+            "phase": "MGZN2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MGZN2"
+                },
+                {
+                    "constituent": "MG"
+                },
+                {
+                    "constituent": "ZN"
+                }
+            ]
+        },
+        {
+            "phase": "MN11SI19",
+            "sublattices": "2",
+            "stoichiometry": [
+                "11",
+                "19"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MN11SI19"
+                },
+                {
+                    "constituent": "MN"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "MN3SI",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MN3SI"
+                },
+                {
+                    "constituent": "MN"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "MN3TI",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MN3TI"
+                },
+                {
+                    "constituent": "MN"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "MN4TI",
+            "sublattices": "2",
+            "stoichiometry": [
+                ".815",
+                ".185"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MN4TI"
+                },
+                {
+                    "constituent": "MN"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "MN5SI3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "5",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MN5SI3"
+                },
+                {
+                    "constituent": "MN"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "MN6SI",
+            "sublattices": "2",
+            "stoichiometry": [
+                "17",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MN6SI"
+                },
+                {
+                    "constituent": "MN"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "MN9SI2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "33",
+                "7"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MN9SI2"
+                },
+                {
+                    "constituent": "MN"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "MNSI",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "MNSI"
+                },
+                {
+                    "constituent": "MN"
+                },
+                {
+                    "constituent": "SI"
+                }
+            ]
+        },
+        {
+            "phase": "OMEGA",
+            "sublattices": "1",
+            "stoichiometry": [
+                "1.0"
+            ],
+            "constituents": [
+                {
+                    "constituent": "OMEGA"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "SI2TI",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI2TI"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "SI2V",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI2V"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "V"
+                }
+            ]
+        },
+        {
+            "phase": "SI2Y_H",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI2Y_H"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "Y"
+                }
+            ]
+        },
+        {
+            "phase": "SI2Y_R",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI2Y_R"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "Y"
+                }
+            ]
+        },
+        {
+            "phase": "SI2ZR1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI2ZR1"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "SI2ZR3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI2ZR3"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "SI3TI5",
+            "sublattices": "3",
+            "stoichiometry": [
+                "2",
+                "3",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI3TI5"
+                },
+                {
+                    "constituent": "SI,TI"
+                },
+                {
+                    "constituent": "SI,TI"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "SI3V5",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI3V5"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "V"
+                }
+            ]
+        },
+        {
+            "phase": "SI3Y5",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI3Y5"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "Y"
+                }
+            ]
+        },
+        {
+            "phase": "SI3ZR5",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI3ZR5"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "SI4TI5",
+            "sublattices": "2",
+            "stoichiometry": [
+                "4",
+                "5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI4TI5"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "SI4Y5",
+            "sublattices": "2",
+            "stoichiometry": [
+                "4",
+                "5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI4Y5"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "Y"
+                }
+            ]
+        },
+        {
+            "phase": "SI4ZR5",
+            "sublattices": "2",
+            "stoichiometry": [
+                "4",
+                "5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI4ZR5"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "SI5V6",
+            "sublattices": "2",
+            "stoichiometry": [
+                "5",
+                "6"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI5V6"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "V"
+                }
+            ]
+        },
+        {
+            "phase": "SI5Y3_H",
+            "sublattices": "2",
+            "stoichiometry": [
+                "5",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI5Y3_H"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "Y"
+                }
+            ]
+        },
+        {
+            "phase": "SI5Y3_R",
+            "sublattices": "2",
+            "stoichiometry": [
+                "5",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI5Y3_R"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "Y"
+                }
+            ]
+        },
+        {
+            "phase": "SIGMA",
+            "sublattices": "3",
+            "stoichiometry": [
+                "8",
+                "4",
+                "18"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SIGMA"
+                },
+                {
+                    "constituent": "MN"
+                },
+                {
+                    "constituent": "CR"
+                },
+                {
+                    "constituent": "CR,MN"
+                }
+            ]
+        },
+        {
+            "phase": "SI1TI1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI1TI1"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "SITI3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SITI3"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "SIV3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SIV3"
+                },
+                {
+                    "constituent": "SI%,V"
+                },
+                {
+                    "constituent": "SI,V%"
+                }
+            ]
+        },
+        {
+            "phase": "SIY",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SIY"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "Y"
+                }
+            ]
+        },
+        {
+            "phase": "SI1ZR1",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SI1ZR1"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "SIZR2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SIZR2"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "SIZR3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SIZR3"
+                },
+                {
+                    "constituent": "SI"
+                },
+                {
+                    "constituent": "ZR"
+                }
+            ]
+        },
+        {
+            "phase": "SN3TI5",
+            "sublattices": "2",
+            "stoichiometry": [
+                "3",
+                "5"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SN3TI5"
+                },
+                {
+                    "constituent": "SN"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "SN5TI6",
+            "sublattices": "2",
+            "stoichiometry": [
+                "5",
+                "6"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SN5TI6"
+                },
+                {
+                    "constituent": "SN"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "SNTI2",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "2"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SNTI2"
+                },
+                {
+                    "constituent": "SN"
+                },
+                {
+                    "constituent": "TI"
+                }
+            ]
+        },
+        {
+            "phase": "SNTI3",
+            "sublattices": "2",
+            "stoichiometry": [
+                "1",
+                "3"
+            ],
+            "constituents": [
+                {
+                    "constituent": "SNTI3"
+                },
+                {
+                    "constituent": "SN,TI%"
+                },
+                {
+                    "constituent": "SN%,TI"
+                }
+            ]
+        },
+        {
+            "phase": "TI2N",
+            "sublattices": "2",
+            "stoichiometry": [
+                "2",
+                "1"
+            ],
+            "constituents": [
+                {
+                    "constituent": "TI2N"
+                },
+                {
+                    "constituent": "TI"
+                },
+                {
+                    "constituent": "C,N"
+                }
+            ]
         }
     ]
 }

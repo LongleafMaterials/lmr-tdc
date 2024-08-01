@@ -28,4 +28,4 @@ import json
 
 # Retrieve COST507R JSON file
 url = 'https://raw.githubusercontent.com/LongleafMaterials/lmr-tdc/main/tdb/COST507R.json'
-tdb = json.load(urlopen(url).read())
+tdb = json.loads(urlopen(url).read())

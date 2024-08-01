@@ -182,10 +182,13 @@ def getParameters(tdbLines):
 #                    ...]
 #   }
 #
+url = 'https://raw.githubusercontent.com/colin-lmr/lmr-tdc/main/tdb/cost507R.TDB'
+tdb = requests.get(url).text
+tdbLines = cleanTDB(tdb)
 def getPhases(tdbLines):
     # Reduce list to rows which contain phases and constituents
     tdbLines = [r for r in tdbLines if any([r[:5] == 'PHASE', r[:5] == 'CONST'])]
-    
+
     # Initialize data structure
     dataStruct = []
     
@@ -194,7 +197,6 @@ def getPhases(tdbLines):
     phases = [tdbLines[i][5:].strip() for i in range(0,len(tdbLines),2)]
     constituents = [tdbLines[i][11:].strip() for i in range(1,len(tdbLines),2)] 
     for p, c in zip(phases, constituents):
-        #print(p, c)
         # Split phase information into list
         phaseList = [i for i in p.split(' ') if len(i)>0]
         
@@ -227,11 +229,13 @@ def getPhases(tdbLines):
                 'sublattices': numSubl,
                 'stoichiometry': stoich,
                 'constituents': const}
+        #print(data)
         
         dataStruct.append(data)
-        
-        return dataStruct
+            
+    return dataStruct
     
+phases = getPhases(tdbLines)    
 #%%   
 # Retrieve COST507R TDB file
 url = 'https://raw.githubusercontent.com/colin-lmr/lmr-tdc/main/tdb/cost507R.TDB'
