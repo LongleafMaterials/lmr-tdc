@@ -155,8 +155,14 @@ def getParameters(tdbLines):
         # Delete any items in the list after, and including, "N" (may not be present)
         text = text[:text.index('N')]
         
+        # Parse param name and phase
+        # Phase is first comma-separated value in parentheses
+        name = text[0]
+        phase = name[name.find('(')+1:name.find(',')]
+        
         # Initialize data element with name of function
-        elem = {'name': text[0],
+        elem = {'phase': phase,
+                'name': name,
                 'parameters': []}
         
         # Extract temperature ranges and functions for remaining entries
@@ -182,9 +188,6 @@ def getParameters(tdbLines):
 #                    ...]
 #   }
 #
-url = 'https://raw.githubusercontent.com/colin-lmr/lmr-tdc/main/tdb/cost507R.TDB'
-tdb = requests.get(url).text
-tdbLines = cleanTDB(tdb)
 def getPhases(tdbLines):
     # Reduce list to rows which contain phases and constituents
     tdbLines = [r for r in tdbLines if any([r[:5] == 'PHASE', r[:5] == 'CONST'])]
@@ -235,7 +238,6 @@ def getPhases(tdbLines):
             
     return dataStruct
     
-phases = getPhases(tdbLines)    
 #%%   
 # Retrieve COST507R TDB file
 url = 'https://raw.githubusercontent.com/colin-lmr/lmr-tdc/main/tdb/cost507R.TDB'
